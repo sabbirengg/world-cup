@@ -87,7 +87,8 @@ main {
 }
 
 .mid-left {
-    min-width: 312px;
+    width: 312px;
+    height: 312px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -108,9 +109,66 @@ main {
 }
 
 .mid-right {
-    background: red;
     width: 100%;
+    margin-left: 10px;
 }
+
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 362px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.blog .thumbnail img {
+    width: 300px;
+    height: 175px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.time-comment {
+    margin-top: 20px;
+    display: flex;
+    color: #161616;
+    gap: 30px;
+}
+
+.time-comment p {
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* --------------------------
          Footer Section
