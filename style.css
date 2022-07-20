@@ -211,19 +211,54 @@ main {
     justify-content: center;
 }
 
+/* --------------------------
+    Upcoming blog section
+----------------------------- */
+.upcoming-blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+}
+
+.upcoming-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 242px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.upcoming-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.upcoming-blog .upcoming-thumbnail img {
+    width: 93.04px;
+    height: 56.18px;
+}
+
+.upcoming-blog-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
+.upcoming-blog-title {
+    font-size: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.upcoming-blog-text {
+    color: gray;
+}
 
 /* --------------------------
          Footer Section
