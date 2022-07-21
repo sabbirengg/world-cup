@@ -36,7 +36,7 @@ main {
 
 .banner {
     display: flex;
-    background: #161616;
+    background: rgb(8, 6, 45);
     border-radius: 30px;
     align-items: center;
     padding: 20px 106px;
@@ -136,7 +136,7 @@ main {
     justify-content: center;
     flex-direction: column;
     row-gap: 30px;
-    background: #161616;
+    background: rgb(8, 6, 45);
     border-radius: 10px;
     padding: 30px;
 }
@@ -274,7 +274,7 @@ main {
 ----------------------------- */
 
 footer {
-    background: #161616;
+    background: rgb(8, 6, 45);
     padding: 130px 140px;
     margin: 0px -8px;
 }
@@ -399,7 +399,7 @@ footer hr {
 
 
     footer {
-        background: #161616;
+        background: rgb(8, 6, 45);
         padding: 130px 20%;
         margin: 0px -10px
     }
@@ -414,7 +414,7 @@ footer hr {
     }
 
     .social a {
-        color: rgb(12, 67, 89);
+        color: rgb(255, 204, 0);
     }
 
 }
